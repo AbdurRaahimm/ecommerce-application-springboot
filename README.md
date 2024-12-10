@@ -16,20 +16,25 @@
    cd ecommerce-application-springboot
    ```
 
-3. **Install Dependencies**
+3. open `backend(springBoot)` folder in `IntelliJ IDEA IDE` and run
+4. check backend URL-
+ ```bash
+   http://localhost:8080/api/products
+   ```
+5. **Install Dependencies**
    Run the following command to install the required dependencies:
    ```bash
    cd frontend
    npm install
    ```
 
-4. **Set Up Environment Variables**
+6. **Set Up Environment Variables**
    Create a `.env.local` file in the frontend root of the project and add the following line:
    ```
    VITE_BASE_API_URL=http://localhost:8080/api
    ```
 
-5. **Start the Application**
+7. **Start the Application**
    Finally, start the application with:
    ```bash
    npm run dev
